@@ -1,0 +1,259 @@
+body{
+  background-repeat: no-repeat;
+  background-size: auto;  
+  background-position: top;
+  width: 1050px; height: 800px; 
+ 
+}
+#container{
+  width: 1500px; height: 800px; margin-bottom: 25px;
+  margin-left: 200px; margin-right: auto; 
+  
+}
+#header{
+  width: 1000px; 
+}
+
+#index{
+width: 150px; height: 150px;
+border-radius: 15px; 
+display: block;
+margin-left: 370px;
+margin-right: auto;
+margin-bottom: 10px;
+}
+
+#pic{
+  width: 50px; height:80px;
+  border-radius: 15px; 
+  text-align: center;
+}
+p{
+   text-align: center; font-size: 30px;
+   line-height: 35px; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color:white;  width: 800px; margin-left: 70px; margin-bottom: 3px;
+   border-radius: 25px;
+   background-color:rgba(252, 17, 181, 0.5); background-color:rgba(17, 217, 252, 0.5);
+}
+
+#It{
+  margin-top: 5px; margin-left: 400px; text-align: center; 
+  width: 180px; border-radius: 50px; font-size: 30px; 
+}
+#Ite{
+ text-align: center; background-color:rgba(194, 79, 3, 0.5); margin-top: 25px;
+  width: 180px; border-radius: 50px; font-size: 30px;
+}
+#Info{
+   margin-top: 20px; font-size: 25px; color: aliceblue; width: 600px; background-color:rgba(84, 206, 36, 0.5);
+  text-align: left; margin-right: 100px; padding-left: 20px; 
+}
+#in{
+  width:250px; height:260px; border-radius: 100px; position: fixed;
+  top: 190px; left: 900px;
+}
+
+#fb{
+  width:50px; height:40px; float: left; background-color: #06f565;
+  padding: 4px; margin-top: 10px; border-radius: 15px;
+}
+#info{
+  color: white; font-size: 20px; background-color:rgba(64, 252, 17, 0.5); 
+width: 240px; padding: 6px; margin-left:10px; border-radius: 10px; 
+margin-top: 20px; float: left; 
+}
+#email{
+  width:50px; height:40px; margin-left: 100px; float: left; background-color: #06f565;
+  padding: 4px; position: fixed; margin-top: 10px; border-radius: 15px;
+}
+#infos{
+  color: white; font-size: 20px;  background-color:rgba(64, 252, 17, 0.5); 
+  width: 250px; padding: 7px; margin-left: 170px;border-radius: 10px;
+ float: left; margin-top: 20px;
+}
+#fol{
+ color: rgb(0, 217, 255); font-size: 30px;
+  background-color: #f5faf7;  border-radius: 10px; width: 90px;
+}
+div.desc {
+   color:blue; background-color: aqua;
+  text-align: center; font-size: 15px;
+}
+.res img{
+    width: 100px; height: 80px; 
+}
+.but {
+  background-color: #7b1ef4;  
+  color: white; 
+  padding: 6px 12px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.but:hover {opacity: 1}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; margin-bottom: 10px;
+}
+#cont{ 
+    font-size: 25px; color: #f5faf7; background-color:rgba(252, 17, 181, 0.5);
+    float: left; height: 75px; width: 400px; margin-top: 5px; 
+    text-align: center; border-style: dashed;
+}
+#cont img{
+  width: 60px; height: 60px; border-style: ridge; border-radius: 30px;
+float: left; margin-top: 5px;
+ 
+}
+#cont a{
+  color: white; font-size: 20px;  background-color:rgba(64, 252, 17, 0.5); 
+  width: 250px; border-radius: 10px; margin-left: 10px; margin-top: 30px;
+ float: left;
+}
+#bot{
+  border-radius: 15px; background-color:rgba(64, 252, 17, 0.5); 
+  display: block; width: 260px; margin-top: 20px;
+  margin-left: 320px;
+  margin-right: auto;
+}
+#demo{
+    width: 230px; font-size: 15px; display: block;
+    margin-left: 340px; margin-right: auto; margin-top: 3px; line-height: 25px;
+    padding-left: 5px; height: 50px; color: rgb(41, 5, 128);
+    background-color:rgba(250, 249, 250, 0.5); border-radius: 15px;
+    }
+
+#c{ 
+  width: 150px; height: 150px; float: right; margin-right: 420px; display: block; border-radius: 50px;
+  padding-top: 5px; 
+  }
+#dropdown {
+float: left; 
+overflow: hidden;
+}
+#dropdown #dropbtn {
+ cursor: pointer; 
+
+}
+#dropdown-content {
+display: none; 
+position: absolute;
+background-color: #f9f9f9;
+min-width: 40px; 
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+#dropdown-content a {
+float: none; font-size: 14px;
+color: black; width: 100px;
+padding: 5px 5px;
+display: block;
+text-align: left;
+}
+
+#dropdown-content a:hover {
+background-color: #ddd; 
+}
+
+#dropdown:hover #dropdown-content {
+display: block;
+}
+#active{
+background-color:rgb(206, 250, 8); 
+}
+.circle{
+  width: 150px; height: 150px;
+  }
+#AB{
+  font-size: 45px; color: aliceblue; text-align: center;
+  font-family: 'Times New Roman', Times, serif; font-weight: bold;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.butt {
+  background-color: #4CAF50;
+  color: white; 
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  
+}
+
+/* Add a hover effect for buttons */
+.butt:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0; 
+  
+}
+
+/* Avatar image */
+img.avatar {
+  width: 15%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+/* span.psw {
+  float: right;
+  padding-top: 16px;
+  
+} */
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+}
+#un{
+  color: #f1f1f1;
+}
+#psw{
+  color: #f1f1f1; 
+}
+.b1{
+  width: 90px; height:40px; background-color: #4CAF50;
+  color: white; float: right; 
+  border: none;
+  cursor: pointer;
+}
+.b1:hover {
+  opacity: 0.8;
+}
